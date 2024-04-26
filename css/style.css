@@ -1,0 +1,66 @@
+body {    
+    background-color: #08161e;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00f70c;
+   
+}
+.nav_bar {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff0000;
+    max-width: 1740px;
+}
+.container {
+    margin-top: 30px;
+    width: 2020px;
+}
+.row {
+}
+.col-8 {
+}
+.col-4 {
+}
+.col-3.nav_logo {
+}
+.col-9 {
+}
+.nav_text {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.img_size {
+}
+.title_photo {
+    text-align: center;
+    width: 368px;
+}
+.my_photo{
+    background: url(../image/photo.webp) no-repeat center center;
+    background-size: 100%;
+    width:  365px;
+    height: 521px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.nav_logo {
+    background: url(../image/zakon-bar.jpg) no-repeat center center;
+    background-size: 100%;
+    width:  138px;
+    height: 72px;
+}
+.photo_walt {
+    background: url(../image/BB-S5B-Walt-590.webp) no-repeat center center;
+    background-size: 100%;
+    width:  365px;
+    height: 521px;
+   
+}
+.photo_jesse {
+    background: url(../image/JesseS5.webp) no-repeat center center;
+    background-size: 100%;
+    width:  365px;
+    height: 521px;
+   
+}
