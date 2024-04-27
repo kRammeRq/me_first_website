@@ -13,13 +13,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 index">
-                    <h1>Страница постов!</h1>
+                    
                 <?php
                 if (!isset($_COOKIE['User'])) {
+                    $var = "<h1>Авторизуйтесь!</h1>";
+                    echo $var;
                 ?>
                 <a href="/registration.php">Зарегистрируйтесь</a> или <a href="/login.php">войдите</a>, чтобы просматривать контент!
                 <?php
                 } else {
+                    ?>
+                    <?php
+                    $var = "<h1>Страница постов!</h1>";
+                    echo $var;
                     // подключение к БД
                     $link = mysqli_connect('127.0.0.1', 'root', 'kali', 'first');
                     $sql = "SELECT * FROM posts";

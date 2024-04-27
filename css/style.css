@@ -111,3 +111,8 @@ body {
 .index {
     text-align: center;
 }
+
+#ButtonContainer {
+    width: 100%;
+    text-align: center;
+}
